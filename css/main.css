@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo-header{
+    float:left;
+    width: 110px;
+    padding-right: 40px;
+}
+
+nav{
+    width:100%;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 15px;
+    margin-bottom: 85px;
+}
+
+.nav-con{
+    width: 72%;
+    height: 50px;
+    float: left;
+}
+
+.nav-con ul{
+    list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+.nav-con li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 5px;
+    color:#512314;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.nav-con li:hover{
+  curser: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+  text-decoration-color: #512314;
+}
+
+form {
+    color: black;
+    display: flex;
+    padding: 4px;
+    border: 1px solid currentColor;
+    border-radius: 30px;
+    width: 225px;
+}
+
+input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+}
+  
+input[type="search"]::placeholder {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+  
+button[type="submit"]:hover {
+    opacity: 1;
+}
+
+header{
+    background: 
+    -webkit-linear-gradient(rgba(135, 60, 255, 1), rgba(135, 60, 255, 0.0) 0%),
+   -webkit-linear-gradient(-30deg, rgba(240, 234, 218, 0.9) 60%, rgba(217, 22, 0, 1) 0%);
+  }
+
+  .inverted{
+    width: 225px;
+    height: 44px;
+    border: 2px solid #1A8738;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 2px;
+    font-weight: bold;
+    color: #512314;
+    margin-top: 30px;
+    display: inline-block;
+    background-color: transparent;
+  }
+
+  .normal{
+    width: 225px;
+    height: 44px;
+    background-color: #1A8738;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    padding-top: 2px;
+    font-weight: bold;
+    margin-top: 30px;
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+  .container-outer{
+    padding-bottom: 10%;
+    margin-left: 10%;
+  }
+
+  .container-inner-1{
+    display: inline-block;
+    margin-right: 21%;
+  }
+
+  .container-inner-2{
+    display: inline-block;
+  }
+
+  .header-circle{
+    background-image: linear-gradient(#D91604,#FF8731);
+    transform: rotate(-30deg);
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 10px solid rgba(240, 234, 218, 0.9);
+  }
+
+  .col-6-right{
+    width: 20%;
+    height: 300px;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 40px;
+    margin-top: 5%;
+  }
+
+  .col-6-left{
+    width: 20%;
+    height: 300px;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-image: url(../assets/sandwich-info-graphic-sandwich-recipe-vector-flat-material-design-isolated-white-186128722.jpeg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .Subs-of-the-Month{
+    padding-top: 40px;
+    padding-left: 40px;
+  }
+
+  .col-3{
+    border: 3px solid #D91604;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    border-radius: 20px;
+    width: 19%;
+    height: 500px;
+  }
+
+  .image-a{
+    background-image: url(../assets/129758756-sándwich-de-chapata-con-lechuga-tomate-jamón-y-queso-aislado-en-blanco.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 47% 30%;
+    height: 450px;
+    width: 100%;
+  }
+
+  .image-b{
+    background-image: url(../assets/132-1326165_subway-sweden-menu-sandwiches-subway-veggie-delight.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 47% 30%;
+    height: 450px;
+    width: 100%;
+  }
+
+  .image-c{
+    background-image: url(../assets/Picture\ 1.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 47% 30%;
+    height: 450px;
+    width: 100%;
+  }
+
+  .image-d{
+    background-image: url(../assets/Picture_2.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 47% 30%;
+    height: 450px;
+    width: 100%;
+  }
+
+  .image-e{
+    background-image: url(../assets/sandwich-with-sandwich-it-that-says-chicken-it_749797-25.jpeg);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 47% 30%;
+    height: 450px;
+    width: 100%;
+  }
+
+  .image-f{
+    background-image: url(../assets/Subway-Canada-Introduces-New-BBQ-Pulled-Pork-Sandwich.jpeg);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 47% 30%;
+    height: 450px;
+    width: 100%;
+  }
+
+  .image-g{
+    background-image: url(../assets/tuna-mayo-salad-sub-sandwich-with-lettuce-tomato-and-cucumber-on-a-C8YJGA.jpeg);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 47% 30%;
+    height: 450px;
+    width: 100%;
+  }
+
+  .image-h{
+    background-image: url(../assets/Untitled-1.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 47% 30%;
+    height: 450px;
+    width: 100%;
+  }
+
+  .content{
+   width: 90%;
+   margin-top: -40%;
+   margin-left: 5%;
+   color: #512314;
+  }
+
+  .f-row{
+    width: 100.65%;
+    height: 120px;
+    background-color: #FFAA01;
+    margin-top: 40px;
+}
+
+.div-con{
+    width: 350px;
+    height: 40px;
+    float: right;
+    padding-top: 1.5%;
+}
+
+.div-con ul{
+    list-style: none;
+}
+
+.div-con img{
+    width: 65px;
+    height: 65px;
+    float: left;
+    padding: 10px;
+}
+
+.logo-footer{
+    float: left;
+    width: 140px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.copyright{
+    width: 10%;
+}
+
+h1,h3{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color:#512314;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color:#512314;
+}

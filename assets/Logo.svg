@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 449.7 218.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #d91604;
+        font-family: HiraKakuStd-W8-83pv-RKSJ-H, 'Hiragino Kaku Gothic Std';
+        font-size: 56.91px;
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: #ffaa01;
+      }
+
+      .cls-4 {
+        fill: #ff8731;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-4" d="m367.6,218.6H82.1c-20.8,0-37.7-16.9-37.7-37.7h0c0-6.2,5-11.2,11.2-11.2h338.4c6.2,0,11.2,5,11.2,11.2h0c0,20.8-16.8,37.7-37.6,37.7Z"/>
+    <path class="cls-4" d="m400.7,109H49c-2.5,0-4.6-2.1-4.6-4.6h0C44.4,46.8,91.2,0,148.8,0h152C358.4,0,405.2,46.8,405.2,104.4h0c0,2.5-2,4.6-4.5,4.6Z"/>
+    <rect class="cls-1" y="101.7" width="449.7" height="73.6"/>
+    <text class="cls-2" transform="translate(25.51 161.36) scale(.98 1)"><tspan x="0" y="0">SUPERSUBS</tspan></text>
+  </g>
+  <path class="cls-3" d="m143.7,0s-3.8,43.2,8.9,56.3c0,0-4.5-37.8,9.5-56.3"/>
+  <path class="cls-3" d="m216.4,0s-3.8,43.2,8.9,56.3c0,0-1.4-37.8,12.5-56.3"/>
+  <path class="cls-3" d="m283.2,0s-3.8,34.8,9,45.4c0,0,4-30.5,18-45.4"/>
+  <path class="cls-3" d="m70.9,178.2h121.2c.2,0,.4.2.4.4v3.9c0,.2-.2.4-.4.4h-121.2c-.2,0-.4-.2-.4-.4v-3.9c-.1-.2.1-.4.4-.4Z"/>
+</svg>
